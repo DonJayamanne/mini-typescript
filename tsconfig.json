@@ -3,19 +3,10 @@
         "module": "commonjs",
         "strict": true,
         "target": "esnext",
-        "lib": ["es2020", "dom"]
+        "lib": ["es2020", "dom"],
+        "outDir": "built"
     },
-    "files": [
-        "types.ts",
-        "error.ts",
-        "lex.ts",
-        "parse.ts",
-        "bind.ts",
-        "check.ts",
-        "transform.ts",
-        "emit.ts",
-        "compile.ts",
-        "test.ts",
-        "index.ts"
+    "include": [
+        "src"
     ]
 }

@@ -1,11 +1,13 @@
-[
-  {
-    "singleDeclaration": {
-      "kind": "Var",
-      "pos": 3
-    }
+{
+  "locals": {
+    "singleDeclaration": [
+      {
+        "kind": "Var",
+        "pos": 3
+      }
+    ]
   },
-  [
+  "statements": [
     {
       "kind": "Var",
       "name": {
@@ -18,4 +20,4 @@
       }
     }
   ]
-]
+}
